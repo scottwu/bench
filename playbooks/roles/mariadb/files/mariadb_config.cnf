@@ -44,7 +44,6 @@ innodb-log-file-size           = 512M
 innodb-flush-log-at-trx-commit = 1
 innodb-file-per-table          = 1
 innodb-buffer-pool-size        = {{ (ansible_memtotal_mb*0.685)|round|int }}M
-innodb-file-format             = barracuda
 innodb-large-prefix            = 1
 collation-server               = utf8mb4_unicode_ci
 character-set-server           = utf8mb4
